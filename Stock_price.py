@@ -4,7 +4,7 @@ import yfinance as yf
 
 # Set up SNS client
 sns_client = boto3.client('sns')
-sns_topic_arn = 'arn:aws:sns:us-east-1:084375564922:StockPriceAlerts'  # Replace with your SNS Topic ARN
+sns_topic_arn = 'arn:aws:sns:XXXXXX:XXXXXXXXXXX:XXXXXX'  # Replace with your SNS Topic ARN
 
 # Dictionary of stock ticker symbols with their preferred prices (Indian stocks with .NS suffix)
     # Dictionary of stock ticker symbols with their preferred prices
